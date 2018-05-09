@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当文本框聚焦时，调用et_shape，false调用2-->
+    <item android:state_focused="true" android:drawable="@drawable/et_shape1"></item>
+    <item android:state_focused="false" android:drawable="@drawable/et_shape2"></item>
+</selector>
